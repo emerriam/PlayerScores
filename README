@@ -1,0 +1,8 @@
+HOW TO RUN CODE AND TESTS	
+
+For simplicity of the demonstration, the code and test both run with a single command.
+
+To run the code and tests:
+	`ruby leader_board.rb input_file.csv`
+
+Please note that you must have an input_file.csv in the same directory.

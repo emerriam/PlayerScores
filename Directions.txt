@@ -1,0 +1,37 @@
+Requirements:
+
+* Write a program that takes in a file which contains points for an imaginary game and outputs a leaderboard, ie `ruby your_program input_file.csv`.
+* Each line of input file will contain first name of a person along with points they were awarded. The points will always be an integer, but can be -/+.
+* input_file.csv will be a CSV file in the following format:
+
+Jack,1
+John,2
+David,1
+Jack,-1
+
+* Your program should output summary of total points of users in DESC order to STDOUT.
+* The summary should include name, followed by `:`, followed by total points.
+
+John: 2
+David: 1
+Jack: 0
+
+* Please write unit tests.
+
+Note:
+
+* Assume input_file.csv and each line in it to be valid CSV syntax.
+* You might be asked to extend the program, so please architect with that in mind. Think about which of the requirements can change or extend with further
+functionality.
+* You may use rspec or minitest or testunit for tests.
+
+Submission:
+
+In addition to the code and test file, include a README that explains:
+
+* Overview design decisions
+* How to run code and tests
+
+Please zip all three files and email it to senthil@walkerandcobrands.com.
+
+Please DO NOT share this file.
